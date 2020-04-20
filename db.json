@@ -1,10 +1,24 @@
 {
-    "social_network": {
-        "github": "https://github.com/kasdihacene",
-        "linkedin": "https://www.linkedin.com/in/hacene-kasdi-142515120/",
-        "medium": "http://medium.com/@hacene.upmc/",
-        "twitter": "https://twitter.com/HaceneKasdi"
-    },
+    "social_network": [{
+            "type": "github",
+            "link": "https://github.com/kasdihacene",
+            "fa_bootstrap": "fab fa-github-alt"
+        },
+        {
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/in/hacene-kasdi-142515120/",
+            "fa_bootstrap": "fab fa-linkedin-in"
+        }, {
+            "type": "medium",
+            "link": "http://medium.com/@hacene.upmc/",
+            "fa_bootstrap": "fab fa-medium-m"
+        },
+        {
+            "type": "twitter",
+            "link": "https://twitter.com/HaceneKasdi",
+            "fa_bootstrap": "fab fa-twitter"
+        }
+    ],
     "informations": {
         "fullname": "Hacene KASDI",
         "profile": "FullStack craftsman engineer",
@@ -13,18 +27,39 @@
         "website": "https://www.hacene-kasdi.fr"
     },
 
-    "skills": [
-        { "SYSTÈMES": " LINUX, MAC, ANDROID, WINDOWS, IOS" },
-        { "LANGAGES": " JAVA 8, TYPESCRIPT, POWERSHELL, C#, ASP.NET, SHELL, HTML5/CSS3, PHP 7" },
-        { "CI/CD & Quality": "Jenkins pipelines, Github actions, Gitlab workflow, Docker, nexus, SonarQube" },
-        { "FRAMEWORKS": " SPRING, ANGULARJS, ANGULAR2+ BOOTSTRAP 4," },
-        { "SGBD": " SQL Server, MongoDB, POSTGRESQL" },
-        { "Cloud Azure": " (KeyVault, storage, serviceBus, EventHub, azureFunctions, azure web apps)" },
-        { "OUTILS": "INTELLIJ, JENKINS, JIRA, BITBUCKET, SELENIUM, POSTMAN" },
-        { "SERVEURS": " APACHE2, IIS, NEXUS, SONARQUBE" },
-        { "VERSIONING": " GIT, SVN" },
-        { "PACKET MANAGER": " NPM, MAVEN" },
-        { "MÉTHODOLOGIE": " AGILE, CYCLE EN V" }
+    "skills": [{
+            "type": "Systèmes",
+            "occurrences": "LINUX, MAC, ANDROID, WINDOWS, IOS"
+        },
+        {
+            "type": "LANGAGES",
+            "occurrences": " JAVA 8, TYPESCRIPT, POWERSHELL, C#, ASP.NET, SHELL, HTML5/CSS3, PHP 7"
+        },
+        {
+            "type": "CI/CD & Quality",
+            "occurrences": " Jenkins pipelines, Github actions, Gitlab workflow, NPM, MAVEN, Docker, nexus, SonarQube"
+        },
+        {
+            "type": "FRAMEWORKS",
+            "occurrences": "SPRING (Boot, MVC), ANGULARJS, ANGULAR2+ BOOTSTRAP 4"
+        },
+        {
+            "type": "SGBD",
+            "occurrences": "SQL Server, MongoDB, POSTGRESQL"
+        },
+        {
+            "type": "Cloud Azure",
+            "occurrences": "KeyVault, storage, serviceBus, EventHub, azureFunctions, azure web apps"
+        },
+        {
+            "type": "OUTILS",
+            "occurrences": "INTELLIJ, GIT, SVN, JENKINS, JIRA, BITBUCKET, SELENIUM, POSTMAN"
+        },
+
+        {
+            "type": "MÉTHODOLOGIE",
+            "occurrences": "AGILE, CYCLE EN V"
+        }
     ],
 
     "craft": [
@@ -32,10 +67,7 @@
     ],
 
 
-
-    "experiences":
-
-        [{
+    "experiences": [{
             "id": 2,
             "mission": "Développeur Java – Cloud Azure",
             "startDate": "Janvier 2019",
@@ -44,14 +76,26 @@
             "logo": "https://www.sncf.com/themes/contrib/sncf_theme/dist/build/img/logo-sncf.svg?v=1280065105",
             "description": "Programme de migration de l'infrastructure SNCF vers le Cloud pour l’optimisation de la gestion des ressources, au sein d’une équipe de 25 personnes organisée en Agile (Sprints de 3 semaines), Développeur Java Spring boot sur des services Cloud Azure IaaS et PaaS.",
 
-            "technologies": [
-                { "Frameworks": "REST API, Spring security, Camel routing, Swagger, Spring JPA, Spring Cloud." },
-                { "Code quality & CI/CD": "Git, Jenkins, SonarQube, maven, nexus." },
-                { "Frontend": "HTML5/CSS3, Angular" },
-                { "Backend": "Java 8, Spring Boot 2.x, Apache tomcat, OpenAM, SQL Server." }
+            "technologies": [{
+                    "type": "Frameworks",
+                    "occurrences": "REST API, Spring Security, Spring Cloud, Camel routing, Swagger, Spring JPA, Spring Cloud"
+                },
+                {
+                    "type": "Code quality & CI/CD",
+                    "occurrences": "Git, Jenkins, SonarQube, maven, nexus."
+                },
+                {
+                    "type": "Frontend",
+                    "occurrences": "HTML5/CSS3, Angular"
+                },
+                {
+                    "type": "Backend",
+                    "occurrences": "Java 8, Spring Boot 2.x, Apache tomcat, OpenAM, SQL Server."
+                }
             ],
             "socles": [{
-                    "Technique": [
+                    "type": "Technique",
+                    "occurrences": [
                         "Implémentation des solutions métier en respectant les patterns (DDD, TDD)",
                         "Implémentation des POCs approuvés par l’architecte & rédaction des spéc techniques.",
                         "Configuration des PaaS/IaaS (VM, webApp, keyVaults, Storage) pour la mise en place des solutions.",
@@ -61,7 +105,8 @@
                     ]
                 },
                 {
-                    "Technico_Fonctionnel": [
+                    "type": "Technico-Fonctionnel",
+                    "occurrences": [
                         "Chiffrage des user stories et aide aux spécifications des besoins.",
                         "Organisation en Agile.",
                         "Conception et développement des microservices."
@@ -80,12 +125,18 @@
             "logo": "https://pbs.twimg.com/profile_images/882934784443527168/hhRie0Y4_400x400.jpg",
             "description": "Au sein d’une équipe de 4 Développeurs, s’occupant de la maintenance et développement de nouvelles fonctionnalités pour l’application web de la gestion de biens immobiliers SNCF.",
 
-            "technologies": [
-                { "Technologies": "C# - ASP.NET - Web Services - NHibernate - Oracle ( SQL ) - AJAX – JIRA - SVN" },
-                { "Frontend": "HTML5/CSS3, Angular" }
+            "technologies": [{
+                    "type": "Technologies",
+                    "occurrences": "C# - ASP.NET - Web Services - NHibernate - Oracle ( SQL ) - AJAX – JIRA - SVN"
+                },
+                {
+                    "type": "Frontend",
+                    "occurrences": "HTML5/CSS3, Angular"
+                }
             ],
             "socles": [{
-                    "Technique": [
+                    "type": "Technique",
+                    "occurrences": [
                         "Amélioration de l’ergonomie, intégration des frameworks AngularJS & Bootstrap 4",
                         "Conception et modélisation des solutions techniques (MCD, ORMapping..).",
                         "Configuration/Optimisation des pratiques du mapping objet relationnel (ORM Nhibernate C# - Oracle).",
@@ -93,7 +144,8 @@
                     ]
                 },
                 {
-                    "Technico_Fonctionnel": [
+                    "type": "Technico-Fonctionnel",
+                    "occurrences": [
                         "Assurer le support et la prise en charge des retours de qualifiation et recette.",
                         "Analyse & résolution des bugs."
                     ]
@@ -111,18 +163,21 @@
             "logo": "https://pbs.twimg.com/profile_images/882997172106657792/ZWHj4dmG_400x400.jpg",
             "description": "Au sein d’une équipe de 6 personnes auto-organisée, intervention sur la plateforme web de gestion des RHs de l’enseigne Danone pour le développement d’un nouveau module pour la gestion des Congés/Absences.",
 
-            "technologies": [
-                { "Technologies": "PHPMyAdmin, GIT, PHP, JAVASCRIPT, BOOTSTRAP, HTML5, CSS3, MySQL, Github." }
-            ],
+            "technologies": [{
+                "type": "Technologies",
+                "occurrences": "PHPMyAdmin, GIT, PHP, JAVASCRIPT, BOOTSTRAP, HTML5, CSS3, MySQL, Github."
+            }],
             "socles": [{
-                    "Technique": [
+                    "type": "Technique",
+                    "occurrences": [
                         "Conception et développement de nouvelles fonctionnalités.",
                         "Assurer la TMA (Analyse et correction des anomalies).",
                         "Intégration de la nouvelle release Bootstrap v3,3"
                     ]
                 },
                 {
-                    "Technico_Fonctionnel": [
+                    "type": "Technico-Fonctionnel",
+                    "occurrences": [
                         "Recueil des exigences auprès des métiers.",
                         "Organisation cycle en V (Livraison chaque 2 mois)."
                     ]
