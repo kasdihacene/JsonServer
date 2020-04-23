@@ -8,7 +8,8 @@
             "type": "linkedin",
             "link": "https://www.linkedin.com/in/hacene-kasdi-142515120/",
             "fa_bootstrap": "fab fa-linkedin-in"
-        }, {
+        },
+        {
             "type": "medium",
             "link": "http://medium.com/@hacene.upmc/",
             "fa_bootstrap": "fab fa-medium-m"
@@ -27,6 +28,23 @@
         "email": "administrator@hacene-kasdi.fr",
         "website": "https://www.hacene-kasdi.fr"
     },
+    "primary_skillset": [{
+        "type": "JAVA",
+        "occurrences": "(TDD, SOLID, FIRST, Clean code)",
+        "percentage": "98%"
+    }, {
+        "type": "Angular",
+        "occurrences": "(AngularJS, Angular2+)",
+        "percentage": "80%"
+    }, {
+        "type": "CI/CD & code Quality",
+        "occurrences": "(Jenkins, Github Actions, SonarQube, Docker)",
+        "percentage": "90%"
+    }, {
+        "type": "Cloud",
+        "occurrences": "(Developpment on Cloud Azure PaaS & IaaS)",
+        "percentage": "98%"
+    }],
 
     "skills": [{
             "type": "Systèmes",
@@ -56,18 +74,18 @@
             "type": "OUTILS",
             "occurrences": "INTELLIJ, GIT, SVN, JENKINS, JIRA, BITBUCKET, SELENIUM, POSTMAN"
         },
-
         {
             "type": "MÉTHODOLOGIE",
             "occurrences": "AGILE, CYCLE EN V"
         }
     ],
-
     "craft": [
-        "Design patterns", "SOLID principals", "TDD - Outside In and Inside Out", "ATDD", "FIRST"
+        "Design patterns",
+        "SOLID principals",
+        "TDD - Outside In and Inside Out",
+        "ATDD",
+        "FIRST"
     ],
-
-
     "experiences": [{
             "id": 2,
             "mission": "Développeur Java – Cloud Azure",
@@ -76,7 +94,6 @@
             "entreprise": "SNCF Voyages",
             "logo": "https://www.sncf.com/themes/contrib/sncf_theme/dist/build/img/logo-sncf.svg?v=1280065105",
             "description": "Programme de migration de l'infrastructure SNCF vers le Cloud pour l’optimisation de la gestion des ressources, au sein d’une équipe de 25 personnes organisée en Agile (Sprints de 3 semaines), Développeur Java Spring boot sur des services Cloud Azure IaaS et PaaS.",
-
             "technologies": [{
                     "type": "Frameworks",
                     "occurrences": "REST API, Spring Security, Spring Cloud, Camel routing, Swagger, Spring JPA, Spring Cloud"
@@ -115,8 +132,6 @@
                 }
             ]
         },
-
-
         {
             "id": 3,
             "mission": "Ingénieur d’études et développement C# ASP.NET",
@@ -125,7 +140,6 @@
             "entreprise": "SNCF Immobilier",
             "logo": "https://pbs.twimg.com/profile_images/882934784443527168/hhRie0Y4_400x400.jpg",
             "description": "Au sein d’une équipe de 4 Développeurs, s’occupant de la maintenance et développement de nouvelles fonctionnalités pour l’application web de la gestion de biens immobiliers SNCF.",
-
             "technologies": [{
                     "type": "Technologies",
                     "occurrences": "C# - ASP.NET - Web Services - NHibernate - Oracle ( SQL ) - AJAX – JIRA - SVN"
@@ -153,8 +167,6 @@
                 }
             ]
         },
-
-
         {
             "id": 4,
             "mission": "Consultant - développeur web",
@@ -163,7 +175,6 @@
             "entreprise": "Danone",
             "logo": "https://pbs.twimg.com/profile_images/882997172106657792/ZWHj4dmG_400x400.jpg",
             "description": "Au sein d’une équipe de 6 personnes auto-organisée, intervention sur la plateforme web de gestion des RHs de l’enseigne Danone pour le développement d’un nouveau module pour la gestion des Congés/Absences.",
-
             "technologies": [{
                 "type": "Technologies",
                 "occurrences": "PHPMyAdmin, GIT, PHP, JAVASCRIPT, BOOTSTRAP, HTML5, CSS3, MySQL, Github."
@@ -185,6 +196,5 @@
                 }
             ]
         }
-
     ]
 }
