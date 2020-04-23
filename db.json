@@ -77,14 +77,11 @@
         {
             "type": "MÉTHODOLOGIE",
             "occurrences": "AGILE, CYCLE EN V"
+        },
+        {
+            "type": "CRAFT",
+            "occurrences": "Design patterns, SOLID principals, TDD - Outside In and Inside Out, ATDD, FIRST"
         }
-    ],
-    "craft": [
-        "Design patterns",
-        "SOLID principals",
-        "TDD - Outside In and Inside Out",
-        "ATDD",
-        "FIRST"
     ],
     "experiences": [{
             "id": 2,
