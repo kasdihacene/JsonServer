@@ -37,7 +37,7 @@
         "occurrences": "(AngularJS, Angular2+)",
         "percentage": "80%"
     }, {
-        "type": "CI/CD & code Quality",
+        "type": "CI/CD",
         "occurrences": "(Jenkins, Github Actions, SonarQube, Docker)",
         "percentage": "90%"
     }, {
