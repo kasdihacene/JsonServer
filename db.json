@@ -46,43 +46,6 @@
         "percentage": "98%"
     }],
 
-    "skills": [{
-            "type": "Systèmes",
-            "occurrences": "LINUX, MAC, ANDROID, WINDOWS, IOS"
-        },
-        {
-            "type": "LANGAGES",
-            "occurrences": " JAVA 8, TYPESCRIPT, POWERSHELL, C#, ASP.NET, SHELL, HTML5/CSS3, PHP 7"
-        },
-        {
-            "type": "CI/CD & Quality",
-            "occurrences": " Jenkins pipelines, Github actions, Gitlab workflow, NPM, MAVEN, Docker, nexus, SonarQube"
-        },
-        {
-            "type": "FRAMEWORKS",
-            "occurrences": "SPRING (Boot, MVC), ANGULARJS, ANGULAR2+ BOOTSTRAP 4"
-        },
-        {
-            "type": "SGBD",
-            "occurrences": "SQL Server, MongoDB, POSTGRESQL"
-        },
-        {
-            "type": "Cloud Azure",
-            "occurrences": "KeyVault, storage, serviceBus, EventHub, azureFunctions, azure web apps"
-        },
-        {
-            "type": "OUTILS",
-            "occurrences": "INTELLIJ, GIT, SVN, JENKINS, JIRA, BITBUCKET, SELENIUM, POSTMAN"
-        },
-        {
-            "type": "MÉTHODOLOGIE",
-            "occurrences": "AGILE, CYCLE EN V"
-        },
-        {
-            "type": "CRAFT",
-            "occurrences": "Design patterns, SOLID principals, TDD - Outside In and Inside Out, ATDD, FIRST"
-        }
-    ],
     "posts": [{
         "idPost": 51,
         "title": "The power of streams in Java 8",
