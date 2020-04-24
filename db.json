@@ -54,7 +54,7 @@
         "link": "https://medium.com/@hacene.upmc/the-power-of-streams-in-java-8-12a5f419cd31",
         "author": "Hacene KASDI",
         "anAbstract": "Streams can operate in two ways, intermediate or terminal. Intermediate operations return a type Stream so we can chain multiple intermediate operations either to return new Stream without using semicolons, in this optic we can find Stream.filter...",
-        "image": "/images/post/ef2748e3-db3a-45f1-aa42-04eaa6180bbbCapture.PNG"
+        "image": "streamsJava.PNG"
     }],
     "experiences": [{
             "id": 2,
