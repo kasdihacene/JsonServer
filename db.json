@@ -83,6 +83,16 @@
             "occurrences": "Design patterns, SOLID principals, TDD - Outside In and Inside Out, ATDD, FIRST"
         }
     ],
+    "posts": [{
+        "idPost": 51,
+        "title": "The power of streams in Java 8",
+        "projectName": "The perfect tutorial to begin with Stream API Java 8",
+        "publicationDate": "2020-03-22",
+        "link": "https://medium.com/@hacene.upmc/the-power-of-streams-in-java-8-12a5f419cd31",
+        "author": "Hacene KASDI",
+        "anAbstract": "Streams can operate in two ways, intermediate or terminal. Intermediate operations return a type Stream so we can chain multiple intermediate operations either to return new Stream without using semicolons, in this optic we can find Stream.filter...",
+        "image": "/images/post/ef2748e3-db3a-45f1-aa42-04eaa6180bbbCapture.PNG"
+    }],
     "experiences": [{
             "id": 2,
             "mission": "Développeur Java – Cloud Azure",
